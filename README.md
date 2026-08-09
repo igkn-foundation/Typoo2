@@ -28,7 +28,7 @@ This application is built using:
 
 * **Gambas 3**
 * **BASIC**
-* **GTK / Qt**, depending on the components used by the project
+* **Qt**
 * **Linux**
 
 ## 📋 Requirements
