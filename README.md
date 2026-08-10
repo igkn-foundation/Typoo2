@@ -22,6 +22,8 @@ Typoo2 is designed to help users improve their typing skills by practicing typin
 
 ![Tampilan aplikasi](screenshots/typoo2.png)
 
+![Tampilan aplikasi](screenshots/typoo-advanced.png)
+
 ## 🛠️ Technologies
 
 This application is built using:
