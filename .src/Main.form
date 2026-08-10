@@ -1,7 +1,7 @@
 # Gambas Form File 3.0
 
 { Form Form
-  MoveScaled(0,0,103,67)
+  MoveScaled(0,0,104,68)
   Text = ("Typoo 2.0.2 [Beta]")
   Icon = Picture["typoo-icon.png"]
   Resizable = False
@@ -68,7 +68,7 @@
     }
   }
   { Main_Container ScrollView
-    MoveScaled(2,0,115,71)
+    MoveScaled(2,0,169,71)
     { Latihan_Container ScrollView
       MoveScaled(0,0,101,66)
       Border = False
@@ -78,7 +78,7 @@
         ReadOnly = True
       }
       { Board TextEdit
-        MoveScaled(23,0,76.7,12.6)
+        MoveScaled(23,0,76.6667,12.5556)
         Font = Font["14"]
         ReadOnly = True
         ScrollBar = Scroll.Vertical
@@ -92,252 +92,252 @@
         Text = ("Excercise List")
       }
       { Keyboard_Container ScrollView
-        MoveScaled(23,13,76.7,28)
+        MoveScaled(23,13,76.6667,28)
         NoTabFocus = True
         { b1 Button
-          MoveScaled(1,1,4.9,4.9)
+          MoveScaled(1,1,4.8889,4.8889)
           Tag = "1"
           Text = ("~\n`")
         }
         { b2 Button
-          MoveScaled(6,1,4.9,4.9)
+          MoveScaled(6,1,4.8889,4.8889)
           Text = ("!\n1")
         }
         { b3 Button
-          MoveScaled(11,1,4.9,4.9)
+          MoveScaled(11,1,4.8889,4.8889)
           Text = ("@\n2")
         }
         { b4 Button
-          MoveScaled(16,1,4.9,4.9)
+          MoveScaled(16,1,4.8889,4.8889)
           Text = ("#\n3")
         }
         { b5 Button
-          MoveScaled(21,1,4.9,4.9)
+          MoveScaled(21,1,4.8889,4.8889)
           Text = ("$\n4")
         }
         { b6 Button
-          MoveScaled(26,1,4.9,4.9)
+          MoveScaled(26,1,4.8889,4.8889)
           Text = ("%\n5")
         }
         { b7 Button
-          MoveScaled(31,1,4.9,4.9)
+          MoveScaled(31,1,4.8889,4.8889)
           Text = ("^\n6")
         }
         { b8 Button
-          MoveScaled(36,1,4.9,4.9)
+          MoveScaled(36,1,4.8889,4.8889)
           Text = ("&&\n7")
         }
         { b10 Button
-          MoveScaled(46,1,4.9,4.9)
+          MoveScaled(46,1,4.8889,4.8889)
           Text = ("(\n9")
         }
         { b11 Button
-          MoveScaled(51,1,4.9,4.9)
+          MoveScaled(51,1,4.8889,4.8889)
           Text = (")\n0")
         }
         { b12 Button
-          MoveScaled(56,1,4.9,4.9)
+          MoveScaled(56,1,4.8889,4.8889)
           Text = ("_\n-")
         }
         { b13 Button
-          MoveScaled(61,1,4.9,4.9)
+          MoveScaled(61,1,4.8889,4.8889)
           Text = ("+\n=")
         }
         { b14 Button
-          MoveScaled(66,1,9,4.9)
+          MoveScaled(66,1,9,4.8889)
           Text = ("Bksp")
         }
         { b16 Button
-          MoveScaled(8,6,4.9,4.9)
+          MoveScaled(8,6,4.8889,4.8889)
           Text = ("Q")
         }
         { b17 Button
-          MoveScaled(13,6,4.9,4.9)
+          MoveScaled(13,6,4.8889,4.8889)
           Text = ("W")
         }
         { b18 Button
-          MoveScaled(18,6,4.9,4.9)
+          MoveScaled(18,6,4.8889,4.8889)
           Text = ("E")
         }
         { b19 Button
-          MoveScaled(23,6,4.9,4.9)
+          MoveScaled(23,6,4.8889,4.8889)
           Text = ("R")
         }
         { b20 Button
-          MoveScaled(28,6,4.9,4.9)
+          MoveScaled(28,6,4.8889,4.8889)
           Text = ("T")
         }
         { b21 Button
-          MoveScaled(33,6,4.9,4.9)
+          MoveScaled(33,6,4.8889,4.8889)
           Text = ("Y")
         }
         { b22 Button
-          MoveScaled(38,6,4.9,4.9)
+          MoveScaled(38,6,4.8889,4.8889)
           Text = ("U")
         }
         { b23 Button
-          MoveScaled(43,6,4.9,4.9)
+          MoveScaled(43,6,4.8889,4.8889)
           Text = ("I")
         }
         { b24 Button
-          MoveScaled(48,6,4.9,4.9)
+          MoveScaled(48,6,4.8889,4.8889)
           Text = ("O")
         }
         { b25 Button
-          MoveScaled(53,6,4.9,4.9)
+          MoveScaled(53,6,4.8889,4.8889)
           Text = ("P")
         }
         { b15 Button
-          MoveScaled(1,6,6.9,4.9)
+          MoveScaled(1,6,6.8889,4.8889)
           Text = ("Tab")
         }
         { b26 Button
-          MoveScaled(58,6,4.9,4.9)
+          MoveScaled(58,6,4.8889,4.8889)
           Text = ("{\n[")
         }
         { b27 Button
-          MoveScaled(63,6,4.9,4.9)
+          MoveScaled(63,6,4.8889,4.8889)
           Text = ("}\n]")
         }
         { b28 Button
-          MoveScaled(68,6,6.9,4.9)
+          MoveScaled(68,6,6.8889,4.8889)
           Text = ("|\n\\")
         }
         { b30 Button
-          MoveScaled(10,11,4.9,4.9)
+          MoveScaled(10,11,4.8889,4.8889)
           Text = ("A")
         }
         { b31 Button
-          MoveScaled(15,11,4.9,4.9)
+          MoveScaled(15,11,4.8889,4.8889)
           Text = ("S")
         }
         { b32 Button
-          MoveScaled(20,11,4.9,4.9)
+          MoveScaled(20,11,4.8889,4.8889)
           Text = ("D")
         }
         { b33 Button
-          MoveScaled(25,11,4.9,4.9)
+          MoveScaled(25,11,4.8889,4.8889)
           Text = ("F")
         }
         { b34 Button
-          MoveScaled(30,11,4.9,4.9)
+          MoveScaled(30,11,4.8889,4.8889)
           Text = ("G")
         }
         { b35 Button
-          MoveScaled(35,11,4.9,4.9)
+          MoveScaled(35,11,4.8889,4.8889)
           Text = ("H")
         }
         { b36 Button
-          MoveScaled(40,11,4.9,4.9)
+          MoveScaled(40,11,4.8889,4.8889)
           Text = ("J")
         }
         { b37 Button
-          MoveScaled(45,11,4.9,4.9)
+          MoveScaled(45,11,4.8889,4.8889)
           Text = ("K")
         }
         { b38 Button
-          MoveScaled(50,11,4.9,4.9)
+          MoveScaled(50,11,4.8889,4.8889)
           Text = ("L")
         }
         { b43 Button
-          MoveScaled(13,16,4.9,4.9)
+          MoveScaled(13,16,4.8889,4.8889)
           Text = ("Z")
         }
         { b44 Button
-          MoveScaled(18,16,4.9,4.9)
+          MoveScaled(18,16,4.8889,4.8889)
           Text = ("X")
         }
         { b45 Button
-          MoveScaled(23,16,4.9,4.9)
+          MoveScaled(23,16,4.8889,4.8889)
           Text = ("C")
         }
         { b46 Button
-          MoveScaled(28,16,4.9,4.9)
+          MoveScaled(28,16,4.8889,4.8889)
           Text = ("V")
         }
         { b47 Button
-          MoveScaled(33,16,4.9,4.9)
+          MoveScaled(33,16,4.8889,4.8889)
           Text = ("B")
         }
         { b48 Button
-          MoveScaled(38,16,4.9,4.9)
+          MoveScaled(38,16,4.8889,4.8889)
           Text = ("N")
         }
         { b49 Button
-          MoveScaled(43,16,4.9,4.9)
+          MoveScaled(43,16,4.8889,4.8889)
           Text = ("M")
         }
         { b39 Button
-          MoveScaled(55,11,4.9,4.9)
+          MoveScaled(55,11,4.8889,4.8889)
           Text = (":\n;")
         }
         { b40 Button
-          MoveScaled(60,11,4.9,4.9)
+          MoveScaled(60,11,4.8889,4.8889)
           Text = ("\"\n'")
         }
         { b41 Button
-          MoveScaled(65,11,9.7,4.9)
+          MoveScaled(65,11,9.6667,4.8889)
           Text = ("Enter")
         }
         { b29 Button
-          MoveScaled(1,11,8.9,4.9)
+          MoveScaled(1,11,8.8889,4.8889)
           Text = ("Caps")
         }
         { b50 Button
-          MoveScaled(48,16,4.9,4.9)
+          MoveScaled(48,16,4.8889,4.8889)
           Text = ("<\n,")
         }
         { b51 Button
-          MoveScaled(53,16,4.9,4.9)
+          MoveScaled(53,16,4.8889,4.8889)
           Text = (">\n.")
         }
         { b52 Button
-          MoveScaled(58,16,4.9,4.9)
+          MoveScaled(58,16,4.8889,4.8889)
           Text = ("?\n/")
         }
         { b42 Button
-          MoveScaled(1,16,11.9,4.9)
+          MoveScaled(1,16,11.8889,4.8889)
           Text = ("Shift")
         }
         { b53 Button
-          MoveScaled(63,16,11.7,4.9)
+          MoveScaled(63,16,11.6667,4.8889)
           Text = ("Shift")
         }
         { b54 Button
-          MoveScaled(1,21,4.9,4.9)
+          MoveScaled(1,21,4.8889,4.8889)
           Text = ("Ctrl")
         }
         { b56 Button
-          MoveScaled(11,21,4.9,4.9)
+          MoveScaled(11,21,4.8889,4.8889)
           Text = ("Alt")
         }
         { b58 Button
-          MoveScaled(58,21,4.9,4.9)
+          MoveScaled(58,21,4.8889,4.8889)
           Text = ("Alt")
         }
         { b59 Button
-          MoveScaled(63,21,4.9,4.9)
+          MoveScaled(63,21,4.8889,4.8889)
           Picture = Picture["tux-icon.png"]
         }
         { b60 Button
-          MoveScaled(68,21,6.6,4.9)
+          MoveScaled(68,21,6.5556,4.8889)
           Text = ("Ctrl")
         }
         { b57 Button
-          MoveScaled(16,21,41.7,4.9)
+          MoveScaled(16,21,41.6667,4.8889)
           Text = ("Space")
         }
         { b9 Button
-          MoveScaled(41,1,4.9,4.9)
+          MoveScaled(41,1,4.8889,4.8889)
           Text = ("*\n8")
         }
         { b55 Button
-          MoveScaled(6,21,4.9,4.9)
+          MoveScaled(6,21,4.8889,4.8889)
           Picture = Picture["tux-icon.png"]
         }
       }
       { Hand_Container ScrollView
-        MoveScaled(28.9,39,66,26)
+        MoveScaled(28.8889,39,66,26)
         ScrollBar = Scroll.None
         { pic_tangan PictureBox
           MoveScaled(10,2,60,27)
@@ -353,15 +353,15 @@
           Picture = Picture.Load("images/jempol-kanan.png")
         }
         { r5 PictureBox
-          MoveScaled(47.1,8.4,6,17)
+          MoveScaled(47.1111,8.4444,6,17)
           Picture = Picture.Load("images/kelingking-kanan.png")
         }
         { l1 PictureBox
-          MoveScaled(10.3,8,9,17)
+          MoveScaled(10.3333,8,9,17)
           Picture = Picture.Load("images/kelingking-kiri.png")
         }
         { r4 PictureBox
-          MoveScaled(43.7,3.8,7,18)
+          MoveScaled(43.6667,3.7778,7,18)
           Picture = Picture.Load("images/manis-kanan.png")
         }
         { l2 PictureBox
@@ -373,7 +373,7 @@
           Picture = Picture.Load("images/telunjuk-kanan.png")
         }
         { l4 PictureBox
-          MoveScaled(20.8,3,6,21)
+          MoveScaled(20.7778,3,6,21)
           Picture = Picture.Load("images/telunjuk-kiri.png")
         }
         { r3 PictureBox
@@ -381,11 +381,11 @@
           Picture = Picture.Load("images/tengah-kanan.png")
         }
         { l3 PictureBox
-          MoveScaled(16.4,2,7,18)
+          MoveScaled(16.4444,2,7,18)
           Picture = Picture.Load("images/tengah-kiri.png")
         }
         { t1 Label
-          MoveScaled(10,12,3.6,3.6)
+          MoveScaled(10,12,3.5556,3.5556)
           Font = Font["13"]
           Background = &HFFFF7F
           Alignment = Align.Center
@@ -395,7 +395,7 @@
           Text = ("a")
         }
         { t2 Label
-          MoveScaled(13,7,3.6,3.6)
+          MoveScaled(13,7,3.5556,3.5556)
           Font = Font["13"]
           Background = &H7FFF7F
           Alignment = Align.Center
@@ -405,7 +405,7 @@
           Text = ("a")
         }
         { t3 Label
-          MoveScaled(18,5,3.6,3.6)
+          MoveScaled(18,5,3.5556,3.5556)
           Font = Font["13"]
           Background = &HFFBF7F
           Alignment = Align.Center
@@ -415,7 +415,7 @@
           Text = ("a")
         }
         { t4 Label
-          MoveScaled(22,7,3.6,3.6)
+          MoveScaled(22,7,3.5556,3.5556)
           Font = Font["13"]
           Background = &H7FBFFF
           Alignment = Align.Center
@@ -425,7 +425,7 @@
           Text = ("a")
         }
         { t5 Label
-          MoveScaled(28,16,3.6,3.6)
+          MoveScaled(28,16,3.5556,3.5556)
           Font = Font["13"]
           Background = &HBF2F31
           Alignment = Align.Center
@@ -435,7 +435,7 @@
           Text = ("a")
         }
         { t9 Label
-          MoveScaled(48,12,3.6,3.6)
+          MoveScaled(48,12,3.5556,3.5556)
           Font = Font["13"]
           Background = &HFFFF7F
           Alignment = Align.Center
@@ -445,7 +445,7 @@
           Text = ("a")
         }
         { t8 Label
-          MoveScaled(45,7,3.6,3.6)
+          MoveScaled(45,7,3.5556,3.5556)
           Font = Font["13"]
           Background = &H7FFF7F
           Alignment = Align.Center
@@ -455,7 +455,7 @@
           Text = ("a")
         }
         { t7 Label
-          MoveScaled(40,5,3.6,3.6)
+          MoveScaled(40,5,3.5556,3.5556)
           Font = Font["13"]
           Background = &HFFBF7F
           Alignment = Align.Center
@@ -465,7 +465,7 @@
           Text = ("a")
         }
         { t6 Label
-          MoveScaled(36,8,3.6,3.6)
+          MoveScaled(36,8,3.5556,3.5556)
           Font = Font["13"]
           Background = &H7FBFFF
           Alignment = Align.Center
@@ -476,7 +476,7 @@
         }
       }
       { Colorized_Keyboard CheckBox
-        MoveScaled(0,58,18,3)
+        MoveScaled(0,58,20,3)
         Text = ("Colorize Keyboard")
         Value = CheckBox.True
       }
@@ -485,14 +485,14 @@
       MoveScaled(102,0,101,65)
       Border = False
       { board_mahir TextEdit
-        MoveScaled(25,2,75,40)
+        MoveScaled(25,3,75,40)
         Font = Font["13"]
         ReadOnly = True
         Wrap = True
         ScrollBar = Scroll.Vertical
       }
       { board_ngetik TextEdit
-        MoveScaled(25,46,75,11)
+        MoveScaled(25,47,75,11)
         Font = Font["12"]
         Wrap = True
         ScrollBar = Scroll.Vertical
@@ -521,61 +521,61 @@
         }
       }
       { start_typing_button Button
-        MoveScaled(3,46,7.1,7)
+        MoveScaled(3,46,7.1111,7)
         ToolTip = ("Start typing")
         Picture = Picture["images/tombol-mulai.png"]
         Border = False
       }
       { stop_typing_button Button
-        MoveScaled(12,46,7.1,7)
+        MoveScaled(12,46,7.1111,7)
         Enabled = False
         ToolTip = ("Stop typing")
         Picture = Picture["images/tombol-berhenti.png"]
         Border = False
       }
       { Label3 Label
-        MoveScaled(1,60.6,15,2)
+        MoveScaled(1,60.5556,15,2)
         Text = ("Number of letters :")
       }
       { Separator1 Separator
         MoveScaled(1,59,98,1)
       }
       { info_char_count TextLabel
-        MoveScaled(17,60.1,12,3)
+        MoveScaled(17,60.1111,12,3)
         Foreground = Color.DarkGreen
         Text = ("0")
         Alignment = Align.Left
       }
       { Label5 Label
-        MoveScaled(50,60.6,15,2)
+        MoveScaled(50,60.5556,15,2)
         Text = ("Number of errors :")
       }
       { info_error_count TextLabel
-        MoveScaled(66,60.1,10,3)
+        MoveScaled(66,60.1111,10,3)
         Foreground = Color.Red
         Text = ("0")
         Alignment = Align.Left
       }
       { Label9 Label
-        MoveScaled(80,60.6,9,2)
+        MoveScaled(80,60.5556,9,2)
         Text = ("Accuracy :")
       }
       { info_accuracy TextLabel
-        MoveScaled(89.6,60.1,7,3)
+        MoveScaled(89.5556,60.1111,7,3)
         Text = ("0%")
         Alignment = Align.Left
       }
       { Label4 Label
-        MoveScaled(31,60.6,9,2)
+        MoveScaled(31,60.5556,9,2)
         Text = ("Resolved :")
       }
       { info_char_typed TextLabel
-        MoveScaled(40,60.1,7,3)
+        MoveScaled(40,60.1111,7,3)
         Text = ("0%")
         Alignment = Align.Left
       }
       { Label2 Label
-        MoveScaled(25,0,37,2)
+        MoveScaled(25,0,43,2)
         Text = ("Open the text file and type the following text :")
       }
       { Label6 Label

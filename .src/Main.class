@@ -797,6 +797,7 @@ Public Sub Prepare_Board_Advanced(Optional tTeks As String)
 
     board_ngetik.SetFocus
 
+
 End
 
 Public Sub stop_typing_button_Click()
@@ -834,7 +835,10 @@ Public Sub board_ngetik_KeyPress()
             If Asc(cChar) = 10 Then
                 cChar = Chr(13)
             Endif
-
+            
+            'textedit tidak bisa menampilkan text, jadi harus manipulasi manual :(
+            board_ngetik.Text = board_ngetik.Text & Key.Text
+            
             If Asc(Key.Text) = Asc(cChar) Then
                 tChar_Pos = tChar_Pos + 1
                 tChar_Typed_Count = tChar_Typed_Count + 1
@@ -891,6 +895,8 @@ Public Sub board_ngetik_KeyPress()
                 tWrong_Type = False
                 info_wrong_type.Visible = False
                 tMark_as_Wrong = True
+                ' textedit tidak menampilkan text
+                board_ngetik.Text = Left(board_ngetik.text, Len(board_ngetik.Text) - 1)
             Else
                 tWrong_Type = True
                 info_wrong_type.Visible = True
@@ -937,3 +943,4 @@ Public Sub menu_exit_Click()
     Me.Close
 
 End
+
